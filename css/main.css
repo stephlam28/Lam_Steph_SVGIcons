@@ -1,16 +1,27 @@
+
+
 .hidden {
     display: none;
 }
 
 body {
     background-color: pink;
-    font-size: 16px;
     color: #000;
     margin: 0;
     padding: 0;
 }
 
+h1 {
+    font-family: 'TR Tempus Sans ITC', sans-serif;
+    text-align: center;
+}           
+
+p {
+    font-family: 'Maiandra GD', sans-serif;                    
+}
+
 .icon-container {
+    margin: 15px 0px 15px 0px;
     display: flex;
     flex-direction: row;
 }
@@ -21,6 +32,7 @@ body {
 
 
 /* blueberries */
+
 #bleafr, #bleafl, #bleafu {
     transition: all 0.5s ease;
     transform-origin: center;
@@ -60,6 +72,7 @@ body {
 }
 
 /* cherry */
+
 #cherry:hover #cleaf {
     transition: all 0.5s ease-out;
     transform-origin: center;
