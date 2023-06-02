@@ -1,0 +1,40 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container div {
+    width: 30%;
+}
+
+/* blueberries */
+#leafr, #leafl, #leafu {
+    transition: all 0.5s ease;
+    transform-origin: center;
+}
+
+#blueberries:hover #leafr {
+    transform: rotate(3deg);
+}
+
+#blueberries:hover #leafl {
+    fill: #fff;
+    transform: rotate(-3deg);
+}
+
+#blueberries:hover #leafu {
+    fill: #fff;
+    transform: rotate(-3deg);
+}
